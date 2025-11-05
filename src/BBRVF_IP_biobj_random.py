@@ -11,6 +11,8 @@ Created on Dec 12, 2023
 '''
 
 
+sys.path.insert(0, r'../')
+
 import time
 import argparse
 from gurobipy import *

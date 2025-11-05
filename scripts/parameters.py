@@ -4,7 +4,7 @@
 # - Windows: .dll
 # - Linux: .so
 # - OSX: .dylib
-lib_path = r'/home/feb223/coin/RVF/build-SYM-opt/lib/libSym.so'
+lib_path = r'/Users/feb223/projects/coin/RVF/build-SYM-opt/lib/libSym.dylib'
 
 # SYMPHONY version
 versions = ['forest']
@@ -17,7 +17,7 @@ outputDir = '../tests'
 # Keys are used to name subdirs in output dir
 instanceDirs = {
     'KP' : '../data/KP',
-    'SPP' : '../data/SPP',
+    # 'SPP' : '../data/SPP',
     #  'MILP' : '../data/MILP',
     #   'smallMILP' : '../data/smallMILP'
 }

@@ -13,12 +13,12 @@ Created on Dec 12, 2023
 
 # In[2]:
 
-
 import time
 import argparse
 from gurobipy import *
 import math, itertools
-
+import sys
+sys.path.insert(0, r'../')
 # Import the python package
 from pySYMPHONY.symphony import *
 from scripts.parameters import lib_path

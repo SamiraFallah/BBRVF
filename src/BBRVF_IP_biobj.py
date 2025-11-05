@@ -19,7 +19,8 @@ import select
 import time
 import argparse
 from gurobipy import *
-import math
+import sys
+sys.path.insert(0, r'../')
 
 # Import the python package
 from pySYMPHONY.symphony import *
